@@ -7,6 +7,7 @@ const router = require("./routes/index");
 
 const app = express();
 
+// funkade din sass ? 
 app.use(
   nodeSass({
     src: __dirname + "/scss",
